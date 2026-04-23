@@ -3,7 +3,7 @@ kind: workflow
 name: deploy
 
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       artifact-id: 
         type: string
